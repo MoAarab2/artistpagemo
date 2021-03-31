@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Special+Elite&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.title-container {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  content: &quot &quot;
+  clear: both;
+  display: block;
+  flex-direction: column;
+}
+
+.title {
+  text-align: left;
+  max-width: 60%;
+  float: left;
+  font-size: 250px;
+  line-height: 85%;
+  font-family: "Fredericka the Great", cursive;
+  color: darkgoldenrod;
+  text-decoration: none;
+  padding-left: 10%;
+}
+
+.intro {
+  padding: 6%;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  max-width: 18rem;
+  margin: auto;
+  text-align: center;
+  color: darkgoldenrod;
+  font-family: "New Tegomin", serif;
+}
+
+h1 {
+  color: darkgoldenrod;
+  font-family: "New Tegomin", serif;
+}
