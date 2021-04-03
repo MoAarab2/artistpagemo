@@ -12,7 +12,10 @@ const Header = () => (
     </div>
     <div className='options'>
       <div className='option' >
-        WORK
+        PAINTINGS
+      </div>
+      <div className='option' >
+        DRAWINGS
       </div>
       <div className='option'>
         ABOUT

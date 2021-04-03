@@ -21,7 +21,7 @@ class HomePage extends React.Component{
 			 	</Fade>
 				<Fade right>
 					<div className='intro'>
-					 <Anime opacity={[0, 1]} translateY={'1em'} delay={(e, i) => i * 1000}>
+					 <Anime opacity={[0, 1]} translateY={'1em'} delay={(e, i) => i * 1500}>
   <h1>Statement</h1>
   <section>
     <p>"Mijn schilderijen zijn fragmenten van mijn verbeeldingswereld. 

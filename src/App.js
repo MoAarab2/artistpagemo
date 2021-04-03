@@ -5,7 +5,7 @@ import './App.css';
 import MyGallery from '../src/pages/work/work';
 import HomePage from './pages/home/home';
 
-
+import Footer from '../src/components/header/footer/footer';
 import Header from '../src/components/header/header.co';
 
 function App() {
@@ -18,6 +18,9 @@ function App() {
        <Route path='/work' component={MyGallery}/>
        </Switch>
       </div>
+      <div>
+         <Footer/>
+      </div>     
     </div>
   );
 }

@@ -1,50 +1,25 @@
-@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Special+Elite&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
 
-body {
-  margin: 0px;
-  padding: 0px;
+.home {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 60% 40%;
+  color: darkgoldenrod;
+  height: 100%;
 }
 
 .title-container {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-  content: &quot &quot;
-  clear: both;
-  display: block;
-  flex-direction: column;
-}
-
-.title {
-  text-align: left;
-  max-width: 60%;
-  float: left;
-  font-size: 250px;
-  line-height: 85%;
-  font-family: "Fredericka the Great", cursive;
-  color: darkgoldenrod;
+  justify-content: start;
+  margin: auto;
+  font-size: 800%;
   text-decoration: none;
-  padding-left: 10%;
+  line-height: 160%;
+  margin: -5% 15%;
+  font-family: "Fredericka the Great", cursive;
 }
 
 .intro {
-  padding: 6%;
-}
-
-section {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  width: 100%;
-  max-width: 18rem;
-  margin: auto;
+  justify-content: end;
+  margin: 10% 25%;
   text-align: center;
-  color: darkgoldenrod;
-  font-family: "New Tegomin", serif;
-}
-
-h1 {
-  color: darkgoldenrod;
-  font-family: "New Tegomin", serif;
 }
