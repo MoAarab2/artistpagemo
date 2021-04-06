@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import './App.css';
 
-import MyGallery from '../src/pages/work/work';
+import Gallery from '../src/pages/work/work';
 import HomePage from './pages/home/home';
 
 import Footer from '../src/components/header/footer/footer';
@@ -14,8 +14,11 @@ function App() {
       <Header />
       <div>
         <Switch>
-       <Route exact path='/' component={HomePage}/>
-       <Route path='/work' component={MyGallery}/>
+       
+      <Route exact path='/' component={HomePage}/>
+      
+       <Route exact path='/work' component={Gallery}/>
+      
        </Switch>
       </div>
       <div>

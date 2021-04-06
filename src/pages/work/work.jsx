@@ -1,16 +1,26 @@
 import React from 'react';
-
-import './work.scss'
-
-import images from './images'
-import ImageGallery from 'react-image-gallery';
-
+import Lightbox from 'react-lightbox-component';
+import images from './images';
+import './work.scss';
+import 'react-lightbox-component/build/css/index.css';
 
 
-class MyGallery extends React.Component {
-  render() {
-    return <ImageGallery items={images} />;
-  }
+
+function Gallery() {
+  return (
+    <div className='Gallery'>
+    <h1 className='title-paintings'>PAINTINGS</h1>
+       <Lightbox
+  images={images}
+  thumbnailWidth='200px'
+  thumbnailHeight='200px'/>
+    </div>
+  )
+ 
+
 }
 
-export default MyGallery;
+export default Gallery;
+
+
+
