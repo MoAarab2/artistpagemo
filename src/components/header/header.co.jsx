@@ -19,12 +19,12 @@ const Header = () => (
       <div >
       <Link exact path to='/work' >
          PAINTINGS
-      </Link>
-     
-       
+      </Link> 
       </div>
       <div className='option' >
+      <Link exact path to='/draw'>
         DRAWINGS
+      </Link>
       </div>
       <div className='option'>
         ABOUT
