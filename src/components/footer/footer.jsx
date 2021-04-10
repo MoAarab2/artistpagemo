@@ -1,8 +1,8 @@
 import React from 'react';
 //import { Route } from 'react-router-dom'
 
-import Facebook from '../../icons/facebook';
-import Instagram from '../../icons/insta';
+import Facebook from '../icons/facebook'
+import Instagram from '../icons/insta';
 import './footer.scss'
 
 
