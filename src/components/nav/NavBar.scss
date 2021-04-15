@@ -1,9 +1,9 @@
 .container {
   position: sticky;
   top: 0;
-  height: 70px;
+  height: 100px;
   width: 100%;
-
+  z-index: 1;
   background-color: rgb(15, 15, 15);
 }
 
@@ -23,7 +23,6 @@
   height: 100%;
   width: 60px;
   padding: 25px;
-  margin-left: 5%;
 }
 
 .Nav {
@@ -37,7 +36,7 @@
   justify-items: flex-end;
 }
 .navLink {
-  padding: 5%;
+  padding: 3%;
   transition: 0.5s;
   text-decoration: none;
 }
@@ -48,7 +47,7 @@
 .Burger {
   display: none;
   grid-area: burger;
-  margin: 0 20px 0 0;
+  margin: 0 30px 0 0;
   padding: 0;
   justify-self: end;
   font-size: 40px;
@@ -68,15 +67,21 @@
   .Nav {
     grid-template-columns: repeat(4, auto);
     margin-top: 3%;
-    font-size: 3vw;
+    font-size: 2.5vw;
+    margin-right: 5%;
   }
   .Burger {
     display: inline;
     color: darkgoldenrod;
+    margin-left: 0;
   }
 
-  .Logo {
-    display: none;
+  .Logo-container {
+    grid-area: logo;
+    height: 100%;
+    width: 20px;
+
+    margin-left: 3%;
   }
 }
 

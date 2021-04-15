@@ -10,7 +10,7 @@ function Gallery() {
   return (
     <div className='Gallery'>
     <h1 className='title-paintings'>PAINTINGS</h1>
-       <Lightbox
+       <Lightbox className='lightbox'
   images={images}
   thumbnailWidth='200px'
   thumbnailHeight='200px'/>

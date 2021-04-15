@@ -36,14 +36,15 @@ const NavBar = () => {
     setNavVisibility(!isNavVisible);
   };
 
+
 	
 		return ( 
 			<div className='container'>
 				<header className='Header'>
 
 <div className='Logo-container'>
-	<Link exact path to='/' className='Logo'>
-		 <Logo  />
+	<Link exact path to='/' className='Logo' >
+		 <Logo   className='LogoInner'/>
 	 </Link>
 </div>
 	 
@@ -68,7 +69,7 @@ const NavBar = () => {
 					 ABOUT
 				 </Link>
 				 
-					 <Link exact path to='/' className='navLink'>
+					 <Link exact path to='/contact' className='navLink'>
 					 CONTACT
 				 </Link>			
 </nav>
@@ -77,6 +78,7 @@ const NavBar = () => {
  
 
 			 <button onClick={toggleNav} className='Burger'>
+			 
 				 <Menu/>
 			 </button>
 
