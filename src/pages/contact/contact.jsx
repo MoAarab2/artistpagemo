@@ -1,9 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 
-
 import './contact.scss';
-
 
 class SubscribePage extends React.Component {
   constructor(props) {
@@ -11,22 +9,23 @@ class SubscribePage extends React.Component {
     this.state = {
       name: '',
       email: '',
-      message: ''
+      message: '',
+      thanksMassage: ''
     }
   }
 
-  handleSubmit(e){
+  handleSubmit(e){ 
     e.preventDefault();
     axios({
       method: "POST", 
       url:"http://localhost:3002/send", 
       data:  this.state
-    }).then((response)=>{
+    }).then((response)=>{ 
       if (response.data.status === 'success') {
-        alert("Message Sent."); 
+       this.setState({thanksMassage: "Thank you for your message "})
         this.resetForm()
       } else if (response.data.status === 'fail') {
-        alert("Message failed to send.")
+        this.setState({thanksMassage: "Something went wrong, please try again"})
       }
     })
   }
@@ -38,23 +37,28 @@ class SubscribePage extends React.Component {
   render() {
     return(
       <div className="newsletter-container">
+       
       <h1>CONTACT</h1>
       <p> If you have any questions or comments, please feel free to contact me by leaving a message, don't forget to leave you're name and e-mail address so I can contact you back. Thank you! </p>
         <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
           <div className="form-group">
               <label className='lable' htmlFor="name">Name</label>
-              <input type="text" className="form-input" id="name" value={this.state.name} onChange={this.onNameChange.bind(this)} />
+              <input type="text" className="form-input" id="name" value={this.state.name} onChange={this.onNameChange.bind(this)} required/>
           </div>
           <div className="form-group">
               <label className='lable' htmlFor="exampleInputEmail1">Email address</label>
-              <input type="email" className="form-input" id="email" aria-describedby="emailHelp" value={this.state.email} onChange={this.onEmailChange.bind(this)} />
+              <input type="email" className="form-input" id="email" 
+              aria-describedby="emailHelp" value={this.state.email} onChange={this.onEmailChange.bind(this)} required pattern="([a-zA-Z0-9\.-]+)@([a-zA-Z0-9-]+).([a-z]{2,8})([.a-z]{2,8})?$"/>
           </div>
           <div className="form-group">
               <label className='lable' htmlFor="message">Message</label>
-              <textarea className="form-input-text" rows="5" id="message" value={this.state.message} onChange={this.onMessageChange.bind(this)} />
+              <textarea className="form-input-text" rows="5" id="message" value={this.state.message} onChange={this.onMessageChange.bind(this)} required/>
           </div>
+          
           <button type="submit" className="btn btn-primary">Submit</button>
+          <h3 className='message-send'>{this.state.thanksMassage}</h3>
         </form>
+        
       </div>
     );
   }
