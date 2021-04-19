@@ -1,7 +1,11 @@
 import React from 'react';
 import axios from 'axios';
+import Shake from 'react-reveal/Shake';
 
 import './contact.scss';
+
+;
+
 
 class SubscribePage extends React.Component {
   constructor(props) {
@@ -54,9 +58,10 @@ class SubscribePage extends React.Component {
               <label className='lable' htmlFor="message">Message</label>
               <textarea className="form-input-text" rows="5" id="message" value={this.state.message} onChange={this.onMessageChange.bind(this)} required/>
           </div>
-          
           <button type="submit" className="btn btn-primary">Submit</button>
+          <Shake spy={this.state.thanksMassage}>
           <h3 className='message-send'>{this.state.thanksMassage}</h3>
+          </Shake>
         </form>
         
       </div>

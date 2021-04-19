@@ -7,6 +7,7 @@ import HomePage from './pages/home/home';
 import Draw from '../src/pages/draw/draw';
 import Footer from '../src/components/footer/footer'
 import SubscribePage from '../src/pages/contact/contact';
+import About from '../src/pages/about/about';
 
 //import Header from '../src/components/header/header.co';
 
@@ -23,6 +24,7 @@ function App() {
       <Route exact path='/work' component={Gallery}/>
       <Route exact path='/draw' component={Draw}/> 
       <Route exact path='/contact' component={SubscribePage}/> 
+      <Route exact path='/About' component={About}/> 
      
        </Switch>
       </div>

@@ -65,7 +65,7 @@ const NavBar = () => {
 					 DRAWINGS
 				 </Link>
 				 
-					 <Link exact path to='/' className='navLink'>
+					 <Link exact path to='/about' className='navLink'>
 					 ABOUT
 				 </Link>
 				 
