@@ -9,17 +9,21 @@ import './footer.scss'
 class Footer extends React.Component{
 	render(props){
 		return (
-
-			<div className='content'>
-					<footer className="footer">
+<div className="footerWrap">
+	<div  className="footer">
+<div className='content'>
+					<p className="footerContent">
       © Copywrite {new Date().getFullYear()} <strong>Mo Arab</strong>, all rights reserved.
 			{"  "}
 			<Facebook/>
 			{"  "}
 			<Instagram/>
 			
-    </footer>
+    </p>
 			</div>		
+	</div>
+</div>
+			
 		)
 	}
 }

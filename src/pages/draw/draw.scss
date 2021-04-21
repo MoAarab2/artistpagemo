@@ -3,6 +3,8 @@
   max-width: 70%;
   height: 100%;
   align-items: center;
+  max-width: 98%;
+  overflow: hidden;
 }
 
 .title-paintings {
@@ -10,4 +12,11 @@
   margin: 5% auto;
   text-align: center;
   color: darkgoldenrod;
+}
+
+.lightbox-container {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }

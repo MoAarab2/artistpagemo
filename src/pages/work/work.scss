@@ -1,5 +1,15 @@
-.lightbox-container {
-  display: block;
-  margin: 0;
-  padding: 0;
+.Gallery {
+  margin: auto;
+  max-width: 70%;
+  height: 100%;
+  align-items: center;
+  max-width: 98%;
+  overflow: hidden;
+}
+
+.title-paintings {
+  justify-content: end;
+  margin: 5% auto;
+  text-align: center;
+  color: darkgoldenrod;
 }
