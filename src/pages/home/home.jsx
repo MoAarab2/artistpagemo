@@ -1,6 +1,6 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
-import HeadShake from 'react-reveal/HeadShake';
+import Pulse from 'react-reveal/Pulse';
 import Anime from 'react-anime';
 
 import './home.scss'
@@ -11,25 +11,27 @@ class HomePage extends React.Component{
 			<div className='home'>
 
 			 <Fade left>
-			 <HeadShake>
+			 <Pulse delay={1000}>
 			 <div className='title-container'>
 			 <h1 className='title'>
 				MO<br />ARAB
 				</h1>
 				 </div>
-				</HeadShake>
+				</Pulse>
 			 	</Fade>
 				<Fade right>
 					<div className='intro'>
-					 <Anime opacity={[0, 1]} translateY={'1em'} delay={(e, i) => i * 1500}>
-  <h1>Statement</h1>
+					 <Anime opacity={[0, 1]} translateY={'1,5em'} delay={(e, i) => i * 1300}>
+  <h1>Statement</h1><br/>
   <section>
-    <p>"Mijn schilderijen zijn fragmenten van mijn verbeeldingswereld. 
-					Soms gaat het over het reële en anderzijds over fictie." </p>
-    <p>"	Maar waar het ook over gaat het belangrijkste voor mij is dat het
-					 werk te herkennen is als een werk van mij. In een tijd waarin we" </p>
-    <p>"overspoeld worden door beelden die vaak een reproductie van een reproductie 
-					 zijn probeer ik als kunstenaar toch authentiek te zijn."</p>
+    <p>My paintings are fragments of my imagination. Sometimes it is about the 
+		reality and sometimes it is about fiction. </p>
+
+    <p>	But whatever the subject is, the most important thing for me is that 
+		the work can be recognized as one of mine.  </p>
+		
+    <p>At a time when we are being overwhelmed by images that are often a 
+		reproduction of a reproduction, I will still try to be authentic as an artist.</p>
   </section>
 </Anime>
    

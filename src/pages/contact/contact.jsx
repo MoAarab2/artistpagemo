@@ -4,7 +4,7 @@ import Shake from 'react-reveal/Shake';
 
 import './contact.scss';
 
-;
+
 
 
 class SubscribePage extends React.Component {

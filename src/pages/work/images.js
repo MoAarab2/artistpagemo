@@ -26,8 +26,7 @@ import img26 from './images/image26.jpg'
 import img27 from './images/image27.jpg'
 import img29 from './images/image29.jpg'
 import img30 from './images/image30.jpg'
-import img31 from './images/image31.jpg'
-import img32 from './images/image32.jpg'
+import img31 from './images/image32.jpg'
 import img33 from './images/image33.jpg'
 import img34 from './images/image34.jpg'
 import img35 from './images/image35.jpg'
@@ -60,8 +59,7 @@ import imgTum1  from './images/image1tum.jpg'
  import imgTum27 from './images/image27tum.jpg'
  import imgTum29 from './images/image29tum.jpg'
  import imgTum30 from './images/image30tum.jpg'
- import imgTum31 from './images/image31tum.jpg'
- import imgTum32 from './images/image32tum.jpg'
+ import imgTum31 from './images/image32tum.jpg'
  import imgTum33 from './images/image33tum.jpg'
  import imgTum34 from './images/image34tum.jpg'
  import imgTum35 from './images/image35tum.jpg'
@@ -71,202 +69,197 @@ const images =
   [
     {
       src: img1,
-      title: 'image title',
-      description: 'image description',
+      title: 'The Red Moon',
+      description: '2014 - 120x90cm - Oil on Canvas',
       thumbnail : imgTum1
     },
     {
       src: img2,
-      title: 'image title',
-      description: 'image description',
+      title: 'Eldritch moon ',
+      description: '2014 - 120x90cm - Oil on Canvas',
       thumbnail : imgTum2
     },
     {
       src: img3,
-      title: 'image title',
-      description: 'image description',
+      title: 'Apperant moon',
+      description: '2014 - 120x90cm - Oil on Canvas',
       thumbnail : imgTum3
     },
     {
       src: img4,
-      title: 'image title',
-      description: 'image description',
+      title: 'Furtif moon',
+      description: '2014 - 120x90cm - Oil on Canvas',
       thumbnail : imgTum4
     },
     {
       src: img5,
-      title: 'image title',
-      description: 'image description',
+      title: 'May we enter Elysium',
+      description: '2020 - 109x114cm - Oil on Canvas',
       thumbnail : imgTum5
     },
     {
       src: img6,
-      title: 'image title',
-      description: 'image description',
+      title: 'Domina Lupus',
+      description: '2018 - 90x64cm - Oil on Canvas',
       thumbnail : imgTum6
     },
     {
       src: img7,
-      title: 'image title',
-      description: 'image description',
+      title: 'Domina corvus',
+      description: '2018 - 90x64cm - Oil on Canvas',
       thumbnail : imgTum7
     },
     {
       src: img8,
-      title: 'image title',
-      description: 'image description',
+      title: 'Relator',
+      description: '2018 - 100x100cm - Oil on Canvas',
       thumbnail : imgTum8
     },
     {
       src: img9,
-      title: 'image title',
-      description: 'image description',
+      title: 'Visitors',
+      description: '2018 - 90x110cm - Oil on Canvas',
       thumbnail : imgTum9
     },
     {
       src: img10,
-      title: 'image title',
-      description: 'image description',
+      title: 'The room',
+      description: '2018 - 55x85cm - Oil on Canvas',
       thumbnail : imgTum10
     },
     {
       src: img11,
-      title: 'image title',
-      description: 'image description',
+      title: 'Tengu´s watch',
+      description: '2019 - 55x85cm - Oil on Canvas',
       thumbnail : imgTum11
     },
     {
       src: img12,
-      title: 'image title',
-      description: 'image description',
+      title: 'Wisdom',
+      description: '2019 - 55x85cm - Oil on Canvas',
       thumbnail : imgTum12
     },
     {
       src: img13,
-      title: 'image title',
-      description: 'image description',
+      title: 'At Ali´s',
+      description: '2019 - 55x85cm - Oil on Canvas',
       thumbnail : imgTum13
     },
     {
       src: img14,
-      title: 'image title',
-      description: 'image description',
+      title: 'At night, at the woods',
+      description: '2017 - 55x85cm - Oil on Canva',
       thumbnail : imgTum14
     },
     {
       src: img15,
-      title: 'image title',
-      description: 'image description',
+      title: 'Untitled',
+      description: '2017 - 58x42cm - Oil on Canvas',
       thumbnail : imgTum15
     },
     {
       src: img16,
-      title: 'image title',
-      description: 'image description',
+      title: 'Untitled',
+      description: '2012 - 60x90cm - Oil on Canvas',
       thumbnail : imgTum16
     },
     {
       src: img17,
-      title: 'image title',
-      description: 'image description',
+      title: 'Untitled',
+      description: '2014 - 55x45cm - Oil on Canvas',
       thumbnail : imgTum17
     },
     {
       src: img18,
-      title: 'image title',
-      description: 'image description',
+      title: 'Untitled',
+      description: '2014 - 55x45cm - Oil on Canvas',
       thumbnail : imgTum18
     },
     {
       src: img19,
-      title: 'image title',
-      description: 'image description',
+      title: 'Untitled',
+      description: '2014 - 55x45cm - Oil on Canvas',
       thumbnail : imgTum19
     },
     {
       src: img20,
-      title: 'image title',
-      description: 'image description',
+      title: 'Untitled',
+      description: '2019 - 55x55cm - Oil on Canvas',
       thumbnail : imgTum20
     },
     {
       src: img21,
-      title: 'image title',
-      description: 'image description',
+      title: 'Untitled',
+      description: '2019 - 55x55cm - Oil on Canvas',
       thumbnail : imgTum21
     },
     {
       src: img22,
-      title: 'image title',
-      description: 'image description',
+      title: 'Untitled',
+      description: '2019 - 55x55cm - Oil on Canvas',
       thumbnail : imgTum22
     },
     {
       src: img23,
-      title: 'image title',
-      description: 'image description',
+      title: 'Untitled',
+      description: '2014 - 55x45cm - Oil on Canvas',
       thumbnail : imgTum23
     },
   
     {
       src: img25,
-      title: 'image title',
-      description: 'image description',
+      title: 'Untitled',
+      description: '2014 - 55x45cm - Oil on Canvas',
       thumbnail : imgTum25
     },
     {
       src: img26,
-      title: 'image title',
-      description: 'image description',
+      title: 'Untitled',
+      description: '2014 - 55x45cm - Oil on Canvas',
       thumbnail : imgTum26
     },
     {
       src: img27,
-      title: 'image title',
-      description: 'image description',
+      title: 'Untitled',
+      description: '2014 - 55x45cm - Oil on Canvas',
       thumbnail : imgTum27
     },
     
     {
       src: img29,
-      title: 'image title',
-      description: 'image description',
+      title: 'Kasba Rocker',
+      description: '2016 - 80x60cm - Oil on Canvas',
       thumbnail : imgTum29
     },
     {
       src: img30,
-      title: 'image title',
-      description: 'image description',
+      title: 'Hadj Wifi ',
+      description: '2017 - 55x55cm - Oil on Canvas',
       thumbnail : imgTum30
     },
     {
       src: img31,
-      title: 'image title',
-      description: 'image description',
+      title: 'Maghreb',
+      description: '2011 - 165x120cm - Oil on Canvas',
       thumbnail : imgTum31
     },
-    {
-      src: img32,
-      title: 'image title',
-      description: 'image description',
-      thumbnail : imgTum32
-    },
+  
     {
       src: img33,
-      title: 'image title',
-      description: 'image description',
+      title: 'Untitled',
+      description: '2020 - 55x65cm - Oil on Canvas',
       thumbnail : imgTum33
     },
     {
       src: img34,
-      title: 'image title',
-      description: 'image description',
+      title: 'Untitled',
+      description: '2016 - 55x60cm - Oil on Canvas',
       thumbnail : imgTum34
     },
     {
       src: img35,
-      title: 'image title',
-      description: 'image description',
+      title: 'Untitled',
+      description: '2016 - 55x60cm - Oil on Canvas',
       thumbnail : imgTum35
     },
    
