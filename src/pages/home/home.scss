@@ -11,12 +11,11 @@
 
 .title-container {
   justify-content: start;
-
+  font-family: "Fredericka the Great", cursive !important;
   font-size: 8vw;
   text-decoration: none;
   line-height: 160%;
   margin: 5% 15% 10% 15%;
-  font-family: "Fredericka the Great", cursive;
 }
 
 .intro {
@@ -24,9 +23,11 @@
   margin: 10% 15%;
   text-align: center;
   font-size: 1vw;
+  padding: 0 10%;
+  font-family: "Architects Daughter", cursive;
 }
 
-@media (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
   .home {
     top: -25%;
     display: grid;
@@ -48,7 +49,7 @@
   }
 }
 
-@media (max-width: 700px) {
+@media only screen and (max-width: 700px) {
   .home {
     top: -50px;
     display: block;

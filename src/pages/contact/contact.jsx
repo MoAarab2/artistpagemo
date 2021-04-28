@@ -22,7 +22,7 @@ class SubscribePage extends React.Component {
     e.preventDefault();
     axios({
       method: "POST", 
-      url:"http://localhost:3002/send", 
+      url:"https://aqueous-plains-72846.herokuapp.com/send", 
       data:  this.state
     }).then((response)=>{ 
       if (response.data.status === 'success') {
@@ -58,7 +58,7 @@ class SubscribePage extends React.Component {
               <label className='lable' htmlFor="message">Message</label>
               <textarea className="form-input-text" rows="5" id="message" value={this.state.message} onChange={this.onMessageChange.bind(this)} required/>
           </div>
-          <button type="submit" className="btn btn-primary">Submit</button>
+          <button type="submit" className="btn btn-primary">SEND</button>
           <Shake spy={this.state.thanksMassage}>
           <h3 className='message-send'>{this.state.thanksMassage}</h3>
           </Shake>

@@ -34,87 +34,87 @@ const drawings =
   [
     {
       src: img1,
-      title: 'image title',
-      description: 'image description',
+      title: 'Untitled',
+      description: 'Charcoal, pencile and ink on paper - 28x42cm',
       thumbnail : imgTum1
     },
     {
       src: img2,
-      title: 'image title',
-      description: 'image description',
+      title: 'Untitled',
+      description: 'Charcoal, pencile and ink on paper - 21x28cm',
       thumbnail : imgTum2
     },
     {
       src: img3,
-      title: 'image title',
-      description: 'image description',
+      title: 'Untitled',
+      description: 'Charcoal, pencile and ink on paper - 28x42cm',
       thumbnail : imgTum3
     },
     {
       src: img4,
-      title: 'image title',
-      description: 'image description',
+      title: 'Untitled',
+      description: 'Charcoal, pencile and ink on paper - 28x42cm',
       thumbnail : imgTum4
     },
     {
       src: img5,
-      title: 'image title',
-      description: 'image description',
+      title: 'Untitled',
+      description: 'Charcoal, pencile and ink on paper - 28x42cm',
       thumbnail : imgTum5
     },
     {
       src: img6,
-      title: 'image title',
-      description: 'image description',
+      title: 'Untitled',
+      description: 'Charcoal, pencile and ink on paper - 28x42cm',
       thumbnail : imgTum6
     },
     {
       src: img7,
-      title: 'image title',
-      description: 'image description',
+      title: 'Untitled',
+      description: 'Charcoal, pencile and ink on paper - 28x42cm',
       thumbnail : imgTum7
     },
     {
       src: img8,
-      title: 'image title',
-      description: 'image description',
+      title: 'Untitled',
+      description: 'Charcoal, pencile and ink on paper - 28x42cm',
       thumbnail : imgTum8
     },
   
     {
       src: img10,
-      title: 'image title',
-      description: 'image description',
+      title: 'Untitled',
+      description: 'Charcoal, pencile and ink on paper - 28x42cm',
       thumbnail : imgTum10
     },
     {
       src: img11,
-      title: 'image title',
-      description: 'image description',
+      title: 'Untitled',
+      description: 'Charcoal, pencile and ink on paper - 28x42cm',
       thumbnail : imgTum11
     },
     {
       src: img12,
-      title: 'image title',
-      description: 'image description',
+      title: 'Untitled',
+      description: 'Charcoal, pencile and ink on paper - 28x42cm',
       thumbnail : imgTum12
     },
     {
       src: img13,
-      title: 'image title',
-      description: 'image description',
+      title: 'Untitled',
+      description: 'Charcoal, pencile and ink on paper - 28x42cm',
       thumbnail : imgTum13
     },
     {
       src: img14,
-      title: 'image title',
-      description: 'image description',
+      title: 'Untitled',
+      description: 'Charcoal, pencile and ink on paper - 28x42cm',
       thumbnail : imgTum14
     },
     {
       src: img15,
-      title: 'image title',
-      description: 'image description',
+      title: 'Untitled',
+      description: 'Charcoal, pencile and ink on paper - 28x42cm',
       thumbnail : imgTum15
     },]
 
