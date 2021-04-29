@@ -5,14 +5,13 @@
   z-index: 1;
 }
 .footer {
-  width: 400px;
   margin: auto;
 }
 .footerContent {
   float: left;
   width: 100%;
   color: inherit;
-  padding: 20px 0;
+  padding: 20% 0;
 }
 .footer p {
   float: left;
@@ -23,5 +22,6 @@
 @media only screen and (max-width: 700px) {
   .footer p {
     font-size: 0.7em;
+    text-align: center;
   }
 }
