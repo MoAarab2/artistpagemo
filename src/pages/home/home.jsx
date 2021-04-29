@@ -9,19 +9,15 @@ class HomePage extends React.Component{
 	render(){
 		return(
 			<div className='home'>
-
-			 <Fade left>
-			 <Pulse delay={1000}>
-			 <div className='title-container'>
-			 <h1 className='title'>
-				MO<br />ARAB
-				</h1>
-				 </div>
-				</Pulse>
-			 	</Fade>
+				<Fade left delay={900}>
+					<Pulse delay={1500}>
+						<p className='title'>Mo<br/>Arab</p>
+					</Pulse>
+				</Fade>
+		
 				<Fade right>
 					<div className='intro'>
-					 <Anime opacity={[0, 1]} translateY={'1,5em'} delay={(e, i) => i * 1300}>
+					 <Anime opacity={[0, 1]} translateY={'1,5em'} delay={(e, i) => i * 1700}>
   <h1>Statement</h1><br/>
   <section>
     <p>My paintings are fragments of my imagination. Sometimes it is about the 
