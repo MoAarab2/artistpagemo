@@ -20,12 +20,12 @@ class HomePage extends React.Component{
 					 <Anime opacity={[0, 1]} translateY={'1,5em'} delay={(e, i) => i * 1700}>
   <h1>Statement</h1><br/>
   <section>
-    <p>My paintings are fragments of my imagination. Sometimes it is about the 
+    <p>My paintings are fragments of my imagination. Sometimes it is about  
 		reality and sometimes it is about fiction. </p>
-
+<br/>
     <p>	But whatever the subject is, the most important thing for me is that 
 		the work can be recognized as one of mine.  </p>
-		
+		<br/>
     <p>At a time when we are being overwhelmed by images that are often a 
 		reproduction of a reproduction, I will still try to be authentic as an artist.</p>
   </section>

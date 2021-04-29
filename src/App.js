@@ -30,7 +30,7 @@ function App() {
        </Switch>
       </div>
       <div>
-         <Footer/>
+        <Footer/>
       </div>     
     </div>
   );

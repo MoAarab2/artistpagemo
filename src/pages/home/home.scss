@@ -11,14 +11,14 @@
   font-size: 20vw;
   font-family: "Fredericka the Great", cursive;
   line-height: 80%;
-  margin: 5% 15% 5% 25%;
+  margin: 5% 15% 0 25%;
 }
 
 .intro {
   justify-content: end;
   margin: 10% 15%;
   text-align: center;
-  font-size: 1vw;
+  font-size: 1.5vw;
   padding: 0 10%;
 }
 
@@ -29,15 +29,15 @@
     z-index: 10;
   }
 
-  .title-container {
+  .title {
     align-items: center;
 
-    font-size: 13vw;
+    font-size: 25vw;
   }
 
   .intro {
-    font-size: 3vw;
+    font-size: 3.5vw;
 
-    margin-bottom: 10%;
+    margin-bottom: 8%;
   }
 }
